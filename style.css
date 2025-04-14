@@ -1,8 +1,10 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    margin: 0; /* Para evitar barras de scroll con width: 100vw */
+    padding: 20px; /* El padding se aplicará dentro del body */
+    height: 100vh; /* El body ocupará el 100% de la altura del viewport */
+    width: 100vw;  /* El body ocupará el 100% del ancho del viewport */
 
     /*Background color rgba*/
     background-color: rgba(0,0,0,0.1);
@@ -30,10 +32,6 @@ body {
 
     /* Color de la fuente */
     font-weight: bold; /* Cambia el color del borde a verde */
-
-
-
-
 }
 
 .card {
@@ -117,6 +115,16 @@ body {
 #card-8 { 
     background-image: radial-gradient(circle, #FFEB3B, #FF9800); /* Gradiente radial de amarillo a naranja */
     color: #333; /* Ajusta el color del texto si es necesario */
+}
+
+/* Estilos para la imagen dentro de card-8 */
+#card-8 img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto;   /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto;
+    /* Esto sobrescribirá la altura fija de .card img para esta imagen específica */
 }
 
 #card-9 {
