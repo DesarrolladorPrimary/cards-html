@@ -34,7 +34,13 @@ body {
     font-weight: bold; /* Establece el peso de la fuente a negrita */
 }
 
-
+h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    border: rgba(73, 64, 64, 0.616) 2px solid; 
+    background-color: rgba(201, 173, 173, 0.534);
+}
 
 main{
     background-color: rgba(202, 21, 142, 0.37); /* Color de fondo transparente */
@@ -78,7 +84,7 @@ main{
 }
 
 #card-2 {
-     color: rgb(54, 5, 248);
+    color: rgb(54, 5, 248);
      text-transform: uppercase; /* Convierte el texto a mayúsculas */
      letter-spacing: 20px; /* Espaciado entre letras */
      text-shadow: hwb(0 0% 0%)  2px 2px 2px; /* Sombra de texto */
