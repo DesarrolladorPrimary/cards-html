@@ -22,16 +22,16 @@ body {
     background-attachment: fixed; /* Fija la imagen al fondo */
 
     /* Fuente de Google font */
-    font-family: "Bungee Spice", sans-serif; /* Cambia el color del borde a verde */
+    font-family: "Bungee Spice", sans-serif; /* Establece la fuente del texto */
 
     /* Tamaño de la fuente */
     font-size: large;
 
     /* Estilo de la fuente */
-    font-style: italic; /* Cambia el color del borde a verde */
+    font-style: italic; /* Establece el estilo de la fuente a itálica */
 
-    /* Color de la fuente */
-    font-weight: bold; /* Cambia el color del borde a verde */
+    /* Peso la fuente */
+    font-weight: bold; /* Establece el peso de la fuente a negrita */
 }
 
 .card {
