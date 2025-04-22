@@ -34,6 +34,12 @@ body {
     font-weight: bold; /* Establece el peso de la fuente a negrita */
 }
 
+
+
+main{
+    background-color: rgba(202, 21, 142, 0.37); /* Color de fondo transparente */
+}
+
 .card {
     display: inline-block;
     vertical-align: top; /* Alinea las tarjetas por la parte superior */
